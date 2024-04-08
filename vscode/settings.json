@@ -1,0 +1,88 @@
+{
+  "terminal.integrated.inheritEnv": true,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.bracketPairColorization.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.suggestSmartCommit": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "terminal.integrated.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.autohide": true,
+  "git.useEditorAsCommitInput": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "debug.onTaskErrors": "showErrors",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "workbench.colorTheme": "Monokai Pro",
+  "python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-13",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.intelliSenseMode": "macos-gcc-arm64",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "csharp": false,
+    "rust": true
+  },
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.files.associations": {
+    "*.vhdl": "verilog"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+  "jupyter.askForKernelRestart": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.productIconTheme": "icons-carbon",
+
+  // Custom settings
+  "window.nativeTabs": true,
+  "editor.accessibilitySupport": "off",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 22,
+  "editor.glyphMargin": true,
+  "editor.lineNumbers": "interval",
+  "editor.suggestSelection": "first",
+  "workbench.editor.showTabs": "single",
+  "workbench.activityBar.location": "top"
+}
