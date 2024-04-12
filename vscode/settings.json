@@ -7,7 +7,6 @@
   "editor.fontFamily": "'Fira Code'",
   "editor.fontSize": 13.5,
   "editor.lineHeight": 22,
-  // TEST
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
   "editor.lineNumbers": "interval",
