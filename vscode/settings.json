@@ -4,10 +4,10 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.editor.showTabs": "single",
-  "workbench.activityBar.location": "top",
   "editor.fontFamily": "'Fira Code'",
   "editor.fontSize": 13.5,
   "editor.lineHeight": 22,
+  // TEST
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
   "editor.lineNumbers": "interval",
@@ -117,5 +117,8 @@
   "window.nativeTabs": true,
 
   // Console Ninja
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "workbench.activityBar.location": "top",
+  "editor.stickyScroll.enabled": false,
+  "githubPullRequests.createOnPublishBranch": "never"
 }
