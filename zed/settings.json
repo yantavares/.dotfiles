@@ -7,16 +7,13 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "One Dark",
+  "theme": "Ayu Mirage",
   "copilot": {
-    "disabled_globs": [
-      ".env",
-      ""
-    ]
+    "disabled_globs": [".env", ""]
   },
   "base_keymap": "VSCode",
   "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "buffer_font_size": 15,
   "autosave": "on_focus_change",
   "extend_comment_on_newline": false,
   "inlay_hints": {
