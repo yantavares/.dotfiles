@@ -8,3 +8,16 @@
 
 3. **Neovim (For when I'm feeling brave)**
    Extensions and packer configs, remaps and theme configuration (most of them from The Primeagen's video).
+
+## Setting Up
+
+To integrate these configurations into your development setup, ensure the symlink script is executable and then run it to link the configs to their respective default locations:
+
+```bash
+chmod +x create_symlinks.sh
+./create_symlinks.sh
+```
+
+Obs.: If you installed config files in different paths, you need to update the paths!
+
+

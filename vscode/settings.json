@@ -5,7 +5,7 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.editor.showTabs": "single",
   "editor.fontFamily": "'Fira Code'",
-  "editor.fontSize": 13.5,
+  "editor.fontSize": 14,
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
@@ -51,9 +51,6 @@
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode"
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
