@@ -116,5 +116,6 @@
   "console-ninja.featureSet": "Community",
   "workbench.activityBar.location": "top",
   "editor.stickyScroll.enabled": false,
-  "githubPullRequests.createOnPublishBranch": "never"
+  "githubPullRequests.createOnPublishBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false
 }
