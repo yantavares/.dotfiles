@@ -1,16 +1,13 @@
 {
   // Editor Appearance
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.editor.showTabs": "single",
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Mono'",
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
   "editor.lineNumbers": "interval",
-  "editor.glyphMargin": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
@@ -31,7 +28,6 @@
 
   // Terminal Settings
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.env.osx": {},
   "terminal.integrated.inheritEnv": true,
 
   // File Handling
@@ -49,12 +45,6 @@
       "source.organizeImports": "explicit"
     }
   },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
 
   // Debugging
   "debug.onTaskErrors": "showErrors",
@@ -67,24 +57,13 @@
   // React Snippets
   "reactSnippets.settings.importReactOnTop": false,
 
-  // Python Settings
-  "python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
-
   // C++ Settings
-  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-13",
-  "C_Cpp.default.cppStandard": "c++17",
-  "C_Cpp.default.cStandard": "c11",
-  "C_Cpp.default.intelliSenseMode": "macos-gcc-arm64",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c99",
 
   // Explorer Settings
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-
-  // Live Server Settings
-  "liveServer.settings.donotShowInfoMsg": true,
-
-  // GitLens
-  "gitlens.views.commitDetails.files.layout": "tree",
 
   // GitHub Copilot
   "github.copilot.enable": {
@@ -106,16 +85,18 @@
   },
 
   // Jupyter
-  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
   "jupyter.askForKernelRestart": false,
-
-  // Custom Settings
-  "window.nativeTabs": true,
 
   // Console Ninja
   "console-ninja.featureSet": "Community",
-  "workbench.activityBar.location": "top",
-  "editor.stickyScroll.enabled": false,
   "githubPullRequests.createOnPublishBranch": "never",
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.env.linux": {},
+  "python.defaultInterpreterPath": "/home/yan/anaconda3/bin/python3",
+  "window.titleBarStyle": "custom",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "terminal.integrated.fontFamily": "monospace"
 }
