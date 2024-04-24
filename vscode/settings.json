@@ -3,7 +3,6 @@
   "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "'Fira Mono'",
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
@@ -17,7 +16,9 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.accessibilitySupport": "off",
-  "editor.fontLigatures": false,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontFamily": "'Fira Code'",
 
   // Git Settings
   "git.confirmSync": false,
@@ -29,6 +30,8 @@
   // Terminal Settings
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.enablePersistentSessions": false,
 
   // File Handling
   "files.autoSave": "onFocusChange",
@@ -45,6 +48,7 @@
       "source.organizeImports": "explicit"
     }
   },
+  "python.analysis.extraPaths": ["/home/yan/anaconda3"],
 
   // Debugging
   "debug.onTaskErrors": "showErrors",
@@ -98,5 +102,5 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "terminal.integrated.fontFamily": "monospace"
+  "liveServer.settings.donotShowInfoMsg": true
 }

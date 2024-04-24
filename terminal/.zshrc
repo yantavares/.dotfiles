@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias update="sudo apt update && sudo apt upgrade && sudo apt autoremove"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -124,3 +125,4 @@ export NVM_DIR="$HOME/.nvm"
 PATH=~/.console-ninja/.bin:$PATH
 
 export PATH="$PATH:/opt/nvim/"
+
