@@ -102,5 +102,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmPasteNative": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
