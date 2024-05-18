@@ -19,6 +19,7 @@
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
   "editor.fontFamily": "'Fira Code'",
+  "window.restoreWindows": "none",
 
   // Git Settings
   "git.confirmSync": false,
@@ -106,5 +107,8 @@
   "explorer.confirmPasteNative": false,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   }
 }
