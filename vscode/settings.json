@@ -9,7 +9,6 @@
   "editor.lineNumbers": "interval",
   "editor.bracketPairColorization.enabled": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.suggestSelection": "first",
@@ -33,9 +32,6 @@
   "terminal.integrated.inheritEnv": true,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.enablePersistentSessions": false,
-
-  // File Handling
-  "files.autoSave": "onFocusChange",
   "files.watcherExclude": {
     "**/.bloop": true,
     "**/.metals": true,
@@ -111,5 +107,7 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true
 }
