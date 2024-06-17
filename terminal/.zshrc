@@ -126,3 +126,9 @@ PATH=~/.console-ninja/.bin:$PATH
 
 export PATH="$PATH:/opt/nvim/"
 
+
+[ -f "/home/yan/.ghcup/env" ] && . "/home/yan/.ghcup/env" # ghcup-env
+
+
+export PATH="$HOME/.local/bin:$PATH" # lunar-vim
+
