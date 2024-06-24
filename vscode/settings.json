@@ -109,6 +109,6 @@
   },
   "github.copilot.editor.enableAutoCompletions": true,
   "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": true,
-  "haskell.manageHLS": "GHCup"
+  "haskell.manageHLS": "GHCup",
+  "editor.formatOnSave": true
 }
