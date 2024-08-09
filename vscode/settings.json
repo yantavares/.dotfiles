@@ -97,7 +97,8 @@
   "python.defaultInterpreterPath": "/home/yan/anaconda3/bin/python3",
   "window.titleBarStyle": "custom",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": false
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmPasteNative": false,
@@ -110,5 +111,8 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "files.autoSave": "onFocusChange",
   "haskell.manageHLS": "GHCup",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "breadcrumbs.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "glassit.alpha": 250
 }
