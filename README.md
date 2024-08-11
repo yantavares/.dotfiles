@@ -45,5 +45,5 @@
 
 - **Configurations**:
   - Custom keybindings.
-  - Custom colors.
+  - Custom theme.
   - Status bar configurations.
