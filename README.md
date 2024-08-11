@@ -25,7 +25,7 @@
 
 ## LunarVim (For Quick Tasks)
 
-- **Setup**:
+- **Configurations**:
   - Mostly vanilla.
   - Added extensions using LazyVim.
 
