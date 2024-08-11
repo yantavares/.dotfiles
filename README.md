@@ -1,4 +1,4 @@
-# Personal Configurations
+# Personal Configurations :)
 
 ## VSCode (Main Editor)
 
