@@ -102,20 +102,6 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias update="sudo apt update && sudo apt upgrade && sudo apt autoremove"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/yan/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/yan/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/yan/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/yan/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -131,4 +117,20 @@ export PATH="$PATH:/opt/nvim/"
 
 
 export PATH="$HOME/.local/bin:$PATH" # lunar-vim
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/yan/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/yan/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/yan/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/yan/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 

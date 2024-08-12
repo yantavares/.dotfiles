@@ -16,8 +16,6 @@
   "editor.find.addExtraSpaceOnTop": false,
   "editor.accessibilitySupport": "off",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "monospace",
-  "editor.fontFamily": "'Fira Code'",
   "window.restoreWindows": "none",
 
   // Git Settings
@@ -114,5 +112,8 @@
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": false,
   "githubPullRequests.pullBranch": "never",
-  "glassit.alpha": 250
+  "glassit.alpha": 250,
+  "editor.fontFamily": "'Fira Code'",
+  "window.zoomLevel": 0.2,
+
 }
