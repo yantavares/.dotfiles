@@ -1,4 +1,9 @@
+-- File explorer
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, {})
+
+-- Split window
+vim.keymap.set('n', '<leader>hs', vim.cmd.split, {})
+vim.keymap.set('n', '<leader>vs', vim.cmd.vsplit, {})
 
 -- Move selected line(s) up and down
 vim.api.nvim_set_keymap('n', '<A-j>', ':m .+1<CR>==', { noremap = true, silent = true })
