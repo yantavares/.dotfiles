@@ -1,7 +1,5 @@
--- Table to keep track of buffer history
 local buffer_history = {}
 
--- Function to update the buffer history
 local update_buffer_history = function ()
   local current_buf = vim.api.nvim_get_current_buf()
   local buf_name = vim.api.nvim_buf_get_name(current_buf)
@@ -19,16 +17,13 @@ local update_buffer_history = function ()
     end
   end
 
-  -- Add the current buffer to the front of the history
   table.insert(buffer_history, 1, current_buf)
 
-  -- Keep only the last 2 items in history
   if #buffer_history > 2 then
     table.remove(buffer_history, 3)
   end
 end
 
--- Function to toggle between the last two file buffers
 local toggle_buffers = function()
   if #buffer_history < 2 then
     print("No other buffer to switch to")
@@ -51,7 +46,6 @@ vim.cmd([[
   augroup END
 ]])
 
--- Map the toggle function
 vim.api.nvim_set_keymap('n', '<leader><tab>', ':lua require("custom.buffers").toggle_buffers()<CR>', { noremap = true, silent = true })
 
 return {
