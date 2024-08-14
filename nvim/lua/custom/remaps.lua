@@ -19,3 +19,7 @@ vim.api.nvim_set_keymap('i', '<A-k>', '<Esc>:m .-2<CR>==gi', { noremap = true, s
 -- Map Esc to exit Terminal mode
 vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true, silent = true })
 
+-- Map Ctrl-a to select all text
+vim.api.nvim_set_keymap('n', '<C-a>', 'ggVG', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<C-a>', 'ggVG', { noremap = true, silent = true })
+

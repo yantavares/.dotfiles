@@ -2,7 +2,7 @@
 local buffer_history = {}
 
 -- Function to update the buffer history
-_G.update_buffer_history = function ()
+local update_buffer_history = function ()
   local current_buf = vim.api.nvim_get_current_buf()
   -- Remove the current buffer if it exists in the history
   for i, buf in ipairs(buffer_history) do
@@ -20,7 +20,7 @@ _G.update_buffer_history = function ()
 end
 
 -- Function to toggle between the last two file buffers
-_G.toggle_buffers = function()
+local toggle_buffers = function()
   if #buffer_history < 2 then
     print("No other buffer to switch to")
     return
@@ -38,11 +38,15 @@ end
 vim.cmd([[
   augroup BufferSwitch
     autocmd!
-    autocmd BufEnter * lua update_buffer_history()
+    autocmd BufEnter * lua require("custom.buffers").update_buffer_history()
   augroup END
 ]])
 
 -- Map the toggle function to a key, e.g., <leader><tab>
-vim.api.nvim_set_keymap('n', '<leader><tab>', ':lua toggle_buffers()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader><tab>', ':lua require("custom.buffers").toggle_buffers()<CR>', { noremap = true, silent = true })
 
+return {
+    toggle_buffers = toggle_buffers,
+    update_buffer_history = update_buffer_history
+}
 
