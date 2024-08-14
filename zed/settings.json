@@ -19,5 +19,10 @@
   "inlay_hints": {
     "enabled": true
   },
-  "buffer_font_family": "Fira Code"
+  "buffer_font_family": "Fira Code",
+  "detect_venv": {
+    "on": {
+      "directories": ["env", ".venv", "venv"]
+    }
+  }
 }
