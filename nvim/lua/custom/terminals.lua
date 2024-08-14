@@ -1,4 +1,3 @@
--- Function to toggle the bottom terminal
 local function toggle_bottom_terminal()
     local exists, win = pcall(vim.api.nvim_get_var, "bottom_terminal_win")
     if exists then
@@ -25,11 +24,9 @@ local function toggle_bottom_terminal()
         local terminal_win = vim.api.nvim_get_current_win()
         vim.api.nvim_set_var("bottom_terminal_win", terminal_win)
     end
-    -- Resize the terminal window
     vim.cmd("resize 10")
 end
 
--- Function to toggle the right terminal
 local function toggle_right_terminal()
     local exists, win = pcall(vim.api.nvim_get_var, "right_terminal_win")
     if exists then
