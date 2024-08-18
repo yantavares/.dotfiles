@@ -1,5 +1,6 @@
 return {
-    {"williamboman/mason.nvim",
+    {
+        "williamboman/mason.nvim",
         config = function()
             require("mason").setup()
         end
@@ -8,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "tsserver" }
+                ensure_installed = { "lua_ls", "tsserver", "emmet_language_server" }
             })
         end
     },
@@ -17,11 +18,17 @@ return {
         config = function()
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-
             local lspconfig = require("lspconfig")
+
             lspconfig.html.setup({capabilities = capabilities})
-            lspconfig.lua_ls.setup({{capabilities = capabilities}})
-            lspconfig.tsserver.setup({{capabilities = capabilities}})
+            lspconfig.lua_ls.setup({capabilities = capabilities})
+            lspconfig.tsserver.setup({capabilities = capabilities})
+
+            -- Emmet Language Server configuration
+            lspconfig.emmet_language_server.setup({
+                capabilities = capabilities,
+                filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "pug", "typescriptreact" },
+            })
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
@@ -29,3 +36,4 @@ return {
         end
     }
 }
+
