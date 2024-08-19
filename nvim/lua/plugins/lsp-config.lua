@@ -23,6 +23,8 @@ return {
             lspconfig.html.setup({capabilities = capabilities})
             lspconfig.lua_ls.setup({capabilities = capabilities})
             lspconfig.tsserver.setup({capabilities = capabilities})
+            lspconfig.clangd.setup({capabilities = capabilities})
+            lspconfig.pyright.setup({capabilities = capabilities})
 
             -- Emmet Language Server configuration
             lspconfig.emmet_language_server.setup({
