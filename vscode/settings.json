@@ -95,8 +95,7 @@
   "python.defaultInterpreterPath": "/home/yan/anaconda3/bin/python3",
   "window.titleBarStyle": "custom",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmPasteNative": false,
@@ -114,6 +113,5 @@
   "githubPullRequests.pullBranch": "never",
   "glassit.alpha": 250,
   "editor.fontFamily": "'Fira Code'",
-  "window.zoomLevel": 0.2,
-
+  "window.zoomLevel": 0.2
 }
