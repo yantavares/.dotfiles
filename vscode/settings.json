@@ -108,10 +108,12 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "files.autoSave": "onFocusChange",
   "haskell.manageHLS": "GHCup",
-  "editor.formatOnSave": true,
   "breadcrumbs.enabled": false,
   "githubPullRequests.pullBranch": "never",
   "glassit.alpha": 250,
   "editor.fontFamily": "'Fira Code'",
-  "window.zoomLevel": 0.2
+  "window.zoomLevel": 0.2,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
