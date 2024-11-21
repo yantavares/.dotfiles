@@ -138,3 +138,12 @@ unset __conda_setup
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Conditional alias for kitten terminal
+if [[ $TERM == "xterm-kitty" ]]; then
+    alias s="kitten ssh"
+    echo " /\_/\ "
+    echo "( o.o )"
+    echo " > ^ <"
+fi
+

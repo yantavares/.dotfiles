@@ -115,6 +115,5 @@
   "window.zoomLevel": 0.2,
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "editor.formatOnSave": true
+  }
 }
