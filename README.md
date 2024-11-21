@@ -41,6 +41,11 @@
   - Color changes.
   - Aliases and functions.
 
+## Kitty (Favorite terminal emulator)
+- **Customizations**:
+  - Color changes.
+  - New shortcuts and configs.
+
 ## Tmux (Terminal Multiplexer)
 
 - **Configurations**:
