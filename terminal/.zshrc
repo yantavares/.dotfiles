@@ -107,14 +107,9 @@ export NVM_DIR="$HOME/.nvm"
 
 PATH=~/.console-ninja/.bin:$PATH
 
-export PATH="$PATH:/opt/nvim/"
-
-
 [ -f "/home/yan/.ghcup/env" ] && . "/home/yan/.ghcup/env" # ghcup-env
 
-
 export PATH="$HOME/.local/bin:$PATH" # lunar-vim
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -143,7 +138,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 if [[ $TERM == "xterm-kitty" ]]; then
     alias s="kitten ssh"
     echo " /\_/\ "
-    echo "( o.o )"
-    echo " > ^ <"
 fi
 

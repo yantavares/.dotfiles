@@ -1,6 +1,6 @@
 {
   // Editor Appearance
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.colorTheme": "Monokai Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
   "editor.lineHeight": 22,
@@ -115,5 +115,7 @@
   "window.zoomLevel": 0.2,
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  }
+  },
+  "cmake.showOptionsMovedNotification": false,
+  "editor.formatOnSave": true
 }
