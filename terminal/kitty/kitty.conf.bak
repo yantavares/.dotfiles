@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_THEME
-# OneDark-Pro
+# Adwaita dark
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -1793,7 +1793,6 @@ window_padding_width 4
 #: }}}
 
 #: OS specific tweaks {{{
-
 wayland_titlebar_color background
 
 #: The color of the kitty window's titlebar on Wayland systems with
