@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
+# OneDark-Pro
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -11,7 +11,7 @@ include current-theme.conf
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-# font_family      monospace
+font_family      FiraCode Nerd Font
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -854,9 +854,9 @@ font_size 11.0
 
 #: Window layout {{{
 
-# remember_window_size  yes
-# initial_window_width  640
-# initial_window_height 400
+remember_window_size  no
+initial_window_width  640
+initial_window_height 400
 
 #: If enabled, the OS Window size will be remembered so that new
 #: instances of kitty will have the same size as the previous
@@ -865,7 +865,7 @@ font_size 11.0
 #: suffix of "c" on the width/height values to have them interpreted
 #: as number of cells instead of pixels.
 
-# enabled_layouts *
+enabled_layouts *
 
 #: The enabled window layouts. A comma separated list of layout names.
 #: The special value all means all layouts. The first listed layout
@@ -911,7 +911,7 @@ font_size 11.0
 #: set the vertical and horizontal sides. Three values set top,
 #: horizontal and bottom. Four values set top, right, bottom and left.
 
-# window_padding_width 0
+window_padding_width 4
 
 #: The window padding (in pts) (blank area between the text and the
 #: window border). A single value sets all four sides. Two values set
@@ -1794,7 +1794,7 @@ font_size 11.0
 
 #: OS specific tweaks {{{
 
-# wayland_titlebar_color system
+wayland_titlebar_color background
 
 #: The color of the kitty window's titlebar on Wayland systems with
 #: client side window decorations such as GNOME. A value of system
@@ -1898,7 +1898,7 @@ font_size 11.0
 #: configuration will change this value only for newly created OS
 #: windows.
 
-# linux_display_server auto
+linux_display_server wayland
 
 #: Choose between Wayland and X11 backends. By default, an appropriate
 #: backend based on the system state is chosen automatically. Set it
