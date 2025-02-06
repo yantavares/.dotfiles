@@ -139,3 +139,9 @@ if [[ $TERM == "xterm-kitty" ]]; then
     alias s="kitten ssh"
     echo " /\_/\ "
 fi
+
+# OpenMPI
+export PATH=/usr/lib64/openmpi/bin:$PATH
+export LD_LIBRARY_PATH=/usr/lib64/openmpi/lib:$LD_LIBRARY_PATH
+export MANPATH=/usr/lib64/openmpi/share/man:$MANPATH
+
