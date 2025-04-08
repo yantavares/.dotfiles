@@ -83,9 +83,6 @@
     "*.vhdl": "verilog"
   },
 
-  // Jupyter
-  "jupyter.askForKernelRestart": false,
-
   // Console Ninja
   "console-ninja.featureSet": "Community",
   "githubPullRequests.createOnPublishBranch": "never",
@@ -110,12 +107,11 @@
   "haskell.manageHLS": "GHCup",
   "breadcrumbs.enabled": false,
   "githubPullRequests.pullBranch": "never",
-  "glassit.alpha": 250,
   "editor.fontFamily": "'Fira Code'",
   "window.zoomLevel": 0.2,
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "cmake.showOptionsMovedNotification": false,
-  "editor.formatOnSave": true
+  "terminal.integrated.env.windows": {}
 }
