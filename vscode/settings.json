@@ -102,7 +102,11 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "github.copilot.editor.enableAutoCompletions": true,
+  "[plaintext]": {
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.wordWrap": "on"
+  },
   "files.autoSave": "onFocusChange",
   "haskell.manageHLS": "GHCup",
   "breadcrumbs.enabled": false,
